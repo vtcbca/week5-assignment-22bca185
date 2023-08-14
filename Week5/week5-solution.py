@@ -1,5 +1,5 @@
+#WRITE A PROGRAM TO CREATE CSV FILE STUDENT.CSV:
 import csv
-
 with open('student.csv','w',newline='') as d :
     w=csv.writer(d)
     fields=['S_ID','S_NAME','CITY','CONTACT']
